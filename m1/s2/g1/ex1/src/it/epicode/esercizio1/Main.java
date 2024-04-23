@@ -32,9 +32,9 @@ public class Main {
         System.out.println("inserisci posizione (da 1 a 5):");
         int posizione = scanner.nextInt();
 
-        if (numeroInserito == null) {
+        //if (numeroInserito == null) {
 
-        }
+        //}
 
     }
 
