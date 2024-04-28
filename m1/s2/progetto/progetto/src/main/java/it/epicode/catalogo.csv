@@ -1,0 +1,19 @@
+isbn(1);titolo(2);anno(3);pagine(4);autore(5);genere(6);periodicita(7)
+1982110567;1984;1949;328;George Orwell;Romanzo distopico;
+0141187761;Il giovane Holden;1951;240;J.D. Salinger;Romanzo;
+8804668232;Il nome della rosa;1980;560;Umberto Eco;Romanzo storico;
+8806228553;Harry Potter e la pietra filosofale;1997;336;J.K. Rowling;Fantasy;
+8807900848;Il signore degli anelli;1954;1216;J.R.R. Tolkien;Fantasy;
+8817127987;Cronache del ghiaccio e del fuoco;1996;800;George R.R. Martin;Fantasy;
+8845272758;Cinquanta sfumature di grigio;2011;592;E.L. James;Romantico;
+8804654921;Orgoglio e pregiudizio;1813;320;Jane Austen;Romanzo classico;
+8807880027;La casa degli spiriti;1982;529;Isabel Allende;Romanzo magico-realistico;
+8804508179;Il barone rampante;1957;322;Italo Calvino;Romanzo sperimentale;
+8806195220;La ragazza di Bube;1960;256;Carlo Cassola;Romanzo neorealista;
+8807882182;Lettera a una professoressa;2008;160;Gabriele Frasca;Saggio;
+8806222094;Sapiens. Da animali a dèi: Breve storia dell'umanità;2011;529;Yuval Noah Harari;Saggio storico;
+8804687813;La rivoluzione delle macchine: Le macchine e l'intelligenza artificiale;2020;372;Kai-Fu Lee;Saggio tecnologico;
+8898941578;National Geographic Italia;2024;120;Periodico;Rivista;mensile
+8861120112;Focus;2024;100;Periodico;Rivista;mensile
+8831257223;Wired Italia;2024;80;Periodico;Rivista;mensile
+8883188995;Il Sole 24 Ore;2024;60;Periodico;Rivista;settimanale
