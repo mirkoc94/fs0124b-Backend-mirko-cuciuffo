@@ -30,7 +30,6 @@ public class Archivio implements CatalogoService{
 
     @Override
     public void getByAnno(int anno) {
-
     }
 
     @Override
