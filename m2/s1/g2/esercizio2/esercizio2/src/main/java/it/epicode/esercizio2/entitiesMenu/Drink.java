@@ -1,4 +1,4 @@
-package it.epicode.esercizio1.entities;
+package it.epicode.esercizio2.entitiesMenu;
 
 import lombok.NoArgsConstructor;
 import lombok.ToString;
