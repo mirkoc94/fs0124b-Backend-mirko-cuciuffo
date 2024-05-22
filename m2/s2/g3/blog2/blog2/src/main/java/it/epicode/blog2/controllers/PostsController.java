@@ -1,7 +1,7 @@
-package it.epicode.blog.controllers;
+package it.epicode.blog2.controllers;
 
-import it.epicode.blog.entities.Post;
-import it.epicode.blog.services.PostService;
+import it.epicode.blog2.entities.Post;
+import it.epicode.blog2.services.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -46,3 +46,4 @@ public class PostsController {
         return posts.delete(id);
     }
 }
+

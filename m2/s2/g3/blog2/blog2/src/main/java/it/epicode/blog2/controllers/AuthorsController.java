@@ -1,13 +1,13 @@
-package it.epicode.blog.controllers;
+package it.epicode.blog2.controllers;
 
-import it.epicode.blog.entities.Author;
-import it.epicode.blog.services.AuthorService;
+import it.epicode.blog2.entities.Author;
+import it.epicode.blog2.services.AuthorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+        import java.util.List;
 
 @RestController
 @RequestMapping("/authors")
@@ -46,3 +46,4 @@ public class AuthorsController {
         return authors.delete(id);
     }
 }
+
