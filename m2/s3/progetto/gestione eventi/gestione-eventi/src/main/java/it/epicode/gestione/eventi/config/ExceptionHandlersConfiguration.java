@@ -1,5 +1,6 @@
 package it.epicode.gestione.eventi.config;
 
+import it.epicode.gestione.eventi.presentationlayer.controllers.api.exceptions.FieldValidationException;
 import org.hibernate.service.spi.ServiceException;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

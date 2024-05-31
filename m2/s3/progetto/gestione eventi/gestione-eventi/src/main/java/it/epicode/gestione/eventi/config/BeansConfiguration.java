@@ -3,6 +3,7 @@ package it.epicode.gestione.eventi.config;
 import it.epicode.gestione.eventi.businesslayer.services.Mapper;
 import it.epicode.gestione.eventi.businesslayer.services.dto.LoginResponseDto;
 import it.epicode.gestione.eventi.businesslayer.services.dto.RegisterUserDto;
+import it.epicode.gestione.eventi.businesslayer.services.dto.RegisteredUserDto;
 import it.epicode.gestione.eventi.datalayer.entities.UserEntity;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

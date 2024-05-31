@@ -1,7 +1,5 @@
 package it.epicode.gestione.eventi.businesslayer.services.exceptions;
 
-import org.hibernate.service.spi.ServiceException;
-
 public class InvalidLoginException extends ServiceException {
     private static final long serialVersionUID = 1L;
 
