@@ -3,11 +3,13 @@ package it.epicode.gestione.eventi.config;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import it.epicode.gestione.eventi.businesslayer.services.security.SecurityUserDetails;
-import lombok.Value;
-import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
+
 import java.security.Key;
 import java.util.Date;
 

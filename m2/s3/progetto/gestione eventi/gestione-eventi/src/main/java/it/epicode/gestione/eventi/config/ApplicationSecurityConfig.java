@@ -42,13 +42,11 @@ public class ApplicationSecurityConfig {
     SecurityFilterChain web(HttpSecurity http) throws Exception {
         http //
                 .csrf(c -> c.disable())//
-                .authorizeHttpRequests(authorize -> //
-                        authorize //
-                                // abilita l'accesso anonimo all'api di login
-                                .requestMatchers("/api/users/login").permitAll() //
-                                // solo per consentire la registrazione di un utente
+                .authorizeHttpRequests(authorize ->
+                        authorize
+                                .requestMatchers("/api/users/login").permitAll()
                                 .requestMatchers(HttpMethod.POST, "/api/users").permitAll()
-                                // tutte le altre richieste sono accessibili ad utenti autenticati
+                                .requestMatchers(HttpMethod.PUT, "/api/users").hasAnyAuthority("user", "admin")
                                 .requestMatchers("/**").authenticated() //
                 ) //
                 .httpBasic(Customizer.withDefaults()) //
